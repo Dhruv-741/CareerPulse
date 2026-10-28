@@ -1,0 +1,24 @@
+{
+  "best_model": "LightGBM",
+  "test_accuracy": 0.5296,
+  "test_macro_f1": 0.6632,
+  "test_weighted_f1": 0.5197,
+  "test_roc_auc": 0.8325,
+  "test_macro_precision": 0.6594,
+  "test_macro_recall": 0.6725,
+  "n_test_samples": 1029,
+  "class_names": [
+    "Associate",
+    "Director",
+    "Entry level",
+    "Executive",
+    "Mid-Senior level",
+    "Senior"
+  ],
+  "random_seed": 42,
+  "split_proportions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  }
+}

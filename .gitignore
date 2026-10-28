@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Data files (large — provide download instructions)
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+
+# Model files (large)
+models/*.joblib
+models/*.pkl
+
+# Logs
+*.log
+pipeline.log
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / credentials
+*.env
+.env*
+kaggle.json
+secrets.toml
+.streamlit/secrets.toml
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Figures (generated — not committed by default)
+# figures/*.png

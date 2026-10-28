@@ -1,0 +1,30 @@
+{
+  "train_samples": 4805,
+  "val_samples": 1029,
+  "test_samples": 1029,
+  "n_features": 4828,
+  "train_class_dist": {
+    "Associate": 881,
+    "Director": 218,
+    "Entry level": 1211,
+    "Executive": 236,
+    "Mid-Senior level": 1553,
+    "Senior": 706
+  },
+  "val_class_dist": {
+    "Associate": 197,
+    "Director": 52,
+    "Entry level": 245,
+    "Executive": 53,
+    "Mid-Senior level": 345,
+    "Senior": 137
+  },
+  "test_class_dist": {
+    "Associate": 189,
+    "Director": 62,
+    "Entry level": 238,
+    "Executive": 42,
+    "Mid-Senior level": 356,
+    "Senior": 142
+  }
+}
